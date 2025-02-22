@@ -1,0 +1,141 @@
+﻿@using JobBoard.Core.Entities
+@model Job
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUser> UserManager
+ <!-- HOME -->
+<section class="section-hero overlay inner-page bg-image" style="background-image: url('@Url.Content("~/images/hero_1.jpg")');" id="home-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-white font-weight-bold">Product Designer</h1>
+                <div class="custom-breadcrumbs">
+                    <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                    <a href="#">Job</a> <span class="mx-2 slash">/</span>
+                    <span class="text-white"><strong>Product Designer</strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="site-section">
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-8 mb-4 mb-lg-0">
+                <div class="d-flex align-items-center">
+                    <div class="border p-2 d-inline-block mr-3 rounded">
+                        <img src="~/Upload/UserPhoto/@Model.AppUserJobs.FirstOrDefault()?.CreatedByUser.LogoUrl" alt="Image">
+                    </div>
+                    <div>
+                        <h2>@Model.Title</h2>
+                        <div>
+                            <span class="ml-0 mr-2 mb-2"><span class="icon-briefcase mr-2"></span>@Model.AppUserJobs.FirstOrDefault()?.CreatedByUser.FullName</span>
+                            <span class="m-2"><span class="icon-room mr-2"></span>@Model.Address</span>
+                            <span class="m-2"><span class="icon-clock-o mr-2"></span><span class="text-primary">@Model.JobType.Name</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+
+                    <div class="col-6">
+                        @{
+                            var currentUser = await UserManager.GetUserAsync(User); // Şu an giriş yapan kullanıcıyı al
+                            var applicantEmail = currentUser?.Email ?? "Bilinmiyor"; // Giriş yapan kullanıcının e-posta adresi
+                            var cvUrl = currentUser?.CvUrl != null
+                            ? $"{Context.Request.Scheme}://{Context.Request.Host}/Upload/CVs/{currentUser.CvUrl}"
+                            : "CV bulunmamaktadır.";
+
+                            var employerEmail = Model.AppUserJobs.FirstOrDefault()?.CreatedByUser.Email; // İşverenin e-posta adresi
+                            var subject = Uri.EscapeDataString("Yeni İş Başvurusu!");
+                            var body = Uri.EscapeDataString($"Merhaba,\n\n{applicantEmail} adresine sahip bir kullanıcı \"{Model.Title}\" ilanına başvurdu.\n\nBaşvuranın CV’si indirilebilir: {cvUrl}\n\nİyi günler dileriz!");
+                        }
+
+                        <a href="mailto:@employerEmail?subject=@subject&body=@body" class="btn btn-secondary">
+                            Apply Now
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <button id="favoriteBtn" data-jobid="@Model.Id" class="btn btn-primary">
+                            <span class="icon-heart-o mr-2 text-danger"></span>
+                            Add to Favorites
+                        </button>
+                        <p id="favoriteMessage" style="color: green; margin-top: 10px;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <figure class="mb-5"><img src="~/images/job_single_img_1.jpg" alt="Image" class="img-fluid rounded"></figure>
+                    <h3 class="h5 d-flex align-items-center mb-4 text-primary"><span class="icon-align-left mr-3"></span>Job Description</h3>
+                    <p>@Model.Description</p>
+                   
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <a href="#" class="btn btn-block btn-primary btn-md">Apply Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light p-3 border rounded mb-4">
+                    <h3 class="text-primary  mt-3 h5 pl-3 mb-3 ">Job Summary</h3>
+                    <ul class="list-unstyled pl-3 mb-0">
+                        <li class="mb-2"><strong class="text-black">Published on:</strong> @Model.CreatedDate.ToString("MMMM dd, yyyy", new System.Globalization.CultureInfo("en-US"))</li>
+                        <li class="mb-2"><strong class="text-black">Category:</strong> @Model.Category.Name </li>
+                        <li class="mb-2"><strong class="text-black">Employment Status:</strong> @Model.JobType.Name</li>
+                        <li class="mb-2"><strong class="text-black">Experience:</strong> @Model.MinExpTime</li>
+                        <li class="mb-2"><strong class="text-black">Education:</strong> @Model.Education.Name</li>
+                        <li class="mb-2"><strong class="text-black">Job Location:</strong> @Model.Address</li>
+                        <li class="mb-2"><strong class="text-black">Salary:</strong> @Model.Salary</li>
+                        <li class="mb-2"><strong class="text-black">Gender:</strong> @Model.Gender?.Name</li>
+                        <li class="mb-2"><strong class="text-black">Application Deadline:</strong> @Model.DeadlineDate.ToString("MMMM dd, yyyy", new System.Globalization.CultureInfo("en-US"))</li>
+                    </ul>
+                </div>
+
+                <div class="bg-light p-3 border rounded">
+                    <h3 class="text-primary  mt-3 h5 pl-3 mb-3 ">Share</h3>
+                    <div class="px-3">
+                        <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-facebook"></span></a>
+                        <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-twitter"></span></a>
+                        <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-linkedin"></span></a>
+                        <a href="#" class="pt-3 pb-3 pr-3 pl-0"><span class="icon-pinterest"></span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+    document.getElementById("favoriteBtn").addEventListener("click", function () {
+        var jobId = this.getAttribute("data-jobid");
+
+        fetch("/Home/AddToFavorites", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: "jobId=" + jobId
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                document.getElementById("favoriteBtn").innerText = "Added to Favorites";
+                document.getElementById("favoriteBtn").disabled = true;
+                document.getElementById("favoriteMessage").innerText = data.message;
+            } else {
+                document.getElementById("favoriteMessage").innerText = data.message;
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    });
+</script>

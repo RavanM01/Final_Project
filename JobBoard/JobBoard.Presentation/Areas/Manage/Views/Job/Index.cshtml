@@ -1,0 +1,63 @@
+﻿@using JobBoard.Core.Entities
+@model List<Job>
+@{
+    int count = 0;
+    int skillcount = 0;
+}
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+    <h1 class="h3 mb-0 text-gray-800">
+        Jobs
+    </h1>
+
+    <a asp-action="Create"
+       class="btn btn-primary">
+        Create new Job
+
+    </a>
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Job Type</th>
+                <th scope="col">Category</th>
+                <th scope="col">Skills</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                count++;
+                    <tr>
+                        <th scope="row">@count</th>
+                        <td>@i.Title</td>
+                        <td>@i.JobType.Name</td>
+                        <td>@i.Category.Name</td>
+                        <td>
+
+                        @foreach(var skill in i.JobSkills){
+                            @skill.Skill.Name
+                            <span>,</span>
+                        }
+                        </td>
+                        <td style="gap: 8px" class="d-flex">
+                            <a asp-action="Update"
+                               asp-route-id="@i.Id"
+                               class="btn btn-secondary">
+                                Update
+                            </a>
+                            <a asp-action="Delete"
+                               asp-route-id="@i.Id"
+                               class="btn btn-danger">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+</div>

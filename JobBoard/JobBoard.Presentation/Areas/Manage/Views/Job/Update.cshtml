@@ -1,0 +1,86 @@
+﻿@model GetJobDto
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+	<h1 class="h3 mb-0 text-gray-800">
+		Create New Job
+	</h1>
+
+	<form class="row col-8" method="post" asp-action="Update">
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Title">Name of a Title</label>
+			<input asp-for="Title" placeholder="Enter name of a Title">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+
+
+			<label asp-for="Description">Description</label>
+			<input asp-for="Description" id="description">
+
+
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MinExpTime">MinExpTime</label>
+			<input asp-for="MinExpTime" placeholder="Enter name of a MinExpTime">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Salary">Salary</label>
+			<input asp-for="Salary" placeholder="Enter name of a Salary">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MinAge">MinAge</label>
+			<input asp-for="MinAge" placeholder="Enter name of a MinAge">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MaxAge">MaxAge</label>
+			<input asp-for="MaxAge" placeholder="Enter name of a MaxAge">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Address">Address</label>
+			<input asp-for="Address" placeholder="Enter name of a Address">
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="DeadlineDate">DeadlineDate</label>
+			<input asp-for="DeadlineDate" placeholder="Enter Deadline Date">
+		</div>
+
+		<div class="form-group">
+			<label asp-for="CategoryId">Select Category</label>
+			<select class="form-control" asp-for="CategoryId" asp-items=@(new SelectList(ViewBag.Categories,"Id","Name"))>
+				<option>Select Category</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="EducationId">Select Education</label>
+			<select class="form-control" asp-for="EducationId" asp-items=@(new SelectList(ViewBag.Educations,"Id","Name"))>
+				<option>Select Education</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="EducationId">Select JobTypeId</label>
+			<select class="form-control" asp-for="JobTypeId" asp-items=@(new SelectList(ViewBag.JobTypes,"Id","Name"))>
+				<option>Select JobType</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="EducationId">Select Gender</label>
+			<select class="form-control" asp-for="GenderId" asp-items=@(new SelectList(ViewBag.Genders,"Id","Name"))>
+				<option>Select Gender</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="EducationId">Select SkillIds</label>
+			<select class="form-control" asp-for="SkillIds" asp-items=@(new SelectList(ViewBag.Skills,"Id","Name"))>
+				<option>Select SkillIds</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<button type="submit" class="btn btn-primary">
+			Submit
+		</button>
+	</form>
+
+</div>

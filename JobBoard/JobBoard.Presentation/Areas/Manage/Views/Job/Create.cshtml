@@ -1,0 +1,116 @@
+﻿@using JobBoard.DAL
+@using Microsoft.Extensions.Options
+@model CreateJobDto
+@inject IOptions<StripeSettings> Stripe
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+	<h1 class="h3 mb-0 text-gray-800">
+		Create New Job
+	</h1>
+	@if (ViewBag.Errors != null)
+	{
+		<ul>
+			<h1>
+			<b>Errors</b>
+			</h1>
+			@foreach (var error in ViewBag.Errors)
+			{
+				<li style="color:red;">@error</li>
+			}
+		</ul>
+	}
+
+	<form class="row col-8" method="post" asp-action="Create" onchange="this.form.submit()">
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Title">Name of a Title</label>
+			<input asp-for="Title" placeholder="Enter name of a Title">
+			<span asp-validation-for="Title" style="color:red"></span>
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Description">Description</label>
+			<input asp-for="Description" id="description">
+			<span asp-validation-for="Description" style="color:red"></span>
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MinExpTime">MinExpTime</label>
+			<input asp-for="MinExpTime" placeholder="Enter name of a MinExpTime">
+			<span asp-validation-for="MinExpTime" style="color:red"></span>
+
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Salary">Salary</label>
+			<input asp-for="Salary" placeholder="Enter name of a Salary">
+			<span asp-validation-for="Salary" style="color:red"></span>
+
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MinAge">MinAge</label>
+			<input asp-for="MinAge" placeholder="Enter name of a MinAge">
+			<span asp-validation-for="MinAge" style="color:red"></span>
+
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="MaxAge">MaxAge</label>
+			<input asp-for="MaxAge" placeholder="Enter name of a MaxAge">
+			<span asp-validation-for="MaxAge" style="color:red"></span>
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Address">Address</label>
+			<input asp-for="Address" placeholder="Enter name of a Address">
+			<span asp-validation-for="Address" style="color:red"></span>
+		</div>
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="DeadlineDate">DeadlineDate</label>
+			<input asp-for="DeadlineDate" placeholder="Enter Deadline Date">
+			<span asp-validation-for="DeadlineDate" style="color:red"></span>
+		</div>
+
+		<div class="form-group">
+			<label asp-for="CategoryId">Select Category</label>
+			<select class="form-control" asp-for="CategoryId" asp-items=@(new SelectList(ViewBag.Categories,"Id","Name"))>
+				<option>Select Category</option>
+			</select>
+			<span asp-validation-for="CategoryId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="EducationId">Select Education</label>
+			<select class="form-control" asp-for="EducationId" asp-items=@(new SelectList(ViewBag.Educations,"Id","Name"))>
+				<option>Select Education</option>
+			</select>
+			<span asp-validation-for="EducationId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="JobTypeId">Select Job Type</label>
+			<select class="form-control" asp-for="JobTypeId" asp-items=@(new SelectList(ViewBag.JobTypes,"Id","Name"))>
+				<option>Select JobType</option>
+			</select>
+			<span asp-validation-for="JobTypeId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="GenderId">Select Gender</label>
+			<select class="form-control" asp-for="GenderId" asp-items=@(new SelectList(ViewBag.Genders,"Id","Name"))>
+				<option>Select Gender</option>
+			</select>
+			<span asp-validation-for="GenderId" style="color:red"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="SkillIds">Select Skills</label>
+			<select class="form-control" asp-for="SkillIds" asp-items=@(new SelectList(ViewBag.Skills,"Id","Name"))>
+				<option>Select SkillIds</option>
+			</select>
+			<span asp-validation-for="SkillIds" style="color:red"></span>
+		</div>
+
+		<script src="//checkout.stripe.com/v2/checkout.js"
+				class="stripe-button"
+				data-key="@Stripe.Value.Publishablekey"
+				data-amount="500"
+				data-name="[Deveducate]"
+				data-locale="en"
+				data-discription="Sample charge"
+				data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+				data-zip-code="true">
+		</script>
+	</form>
+
+</div>

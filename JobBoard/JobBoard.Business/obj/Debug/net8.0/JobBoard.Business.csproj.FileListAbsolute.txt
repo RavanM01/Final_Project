@@ -1,0 +1,17 @@
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.Business.deps.json
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.Business.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.Business.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.Core.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.DAL.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.DAL.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\bin\Debug\net8.0\JobBoard.Core.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.csproj.AssemblyReference.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.AssemblyInfoInputs.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.AssemblyInfo.cs
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.csproj.CoreCompileInputs.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.7A7FD3E8.Up2Date
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\refint\JobBoard.Business.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\JobBoard.Business.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Business\obj\Debug\net8.0\ref\JobBoard.Business.dll

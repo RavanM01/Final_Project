@@ -1,0 +1,47 @@
+﻿@using JobBoard.Business.DTOs.User
+
+@model EditProfileDto
+
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+    <h1 class="h3 mb-0 text-gray-800">
+        Update Position - @Model.FullName
+    </h1>
+    
+    <form class="row col-8" method="post" asp-route-id="@Model.Id" asp-action="EditProfile" enctype="multipart/form-data">
+        <div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+            <label asp-for="FullName">Name</label>
+            <input value="@Model.FullName" asp-for="FullName" placeholder="Enter Name">
+            <span asp-validation-for="FullName" style="color:red"></span>
+        </div>
+        @if(Model.Description==null){
+
+        <div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+            <label asp-for="CvUrl">Cv</label>
+            <input value="@Model.CvUrl" asp-for="CvUrl" placeholder="Enter Cv">
+            <span asp-validation-for="CvUrl" style="color:red"></span>
+        </div>
+        }
+        else{
+
+        <div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+                <label asp-for="Description">Description</label>
+                <input value="@Model.Description" asp-for="Description" placeholder="Enter Description">
+                <span asp-validation-for="Description" style="color:red"></span>
+        </div>
+        <div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+            <label asp-for="Address">Address</label>
+                <input value="@Model.Address" asp-for="Address" placeholder="Enter Address">
+                <span asp-validation-for="Address" style="color:red"></span>
+        </div>
+        }
+        <div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+            <label asp-for="LogoUrl">Logo</label>
+            <input value="@Model.LogoUrl" asp-for="LogoUrl" placeholder="Enter Logo">
+            <span asp-validation-for="LogoUrl" style="color:red"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">
+            Submit
+        </button>
+    </form>
+</div>

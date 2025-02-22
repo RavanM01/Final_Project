@@ -1,0 +1,12 @@
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\bin\Debug\net8.0\JobBoard.Core.deps.json
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\bin\Debug\net8.0\JobBoard.Core.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\bin\Debug\net8.0\JobBoard.Core.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.csproj.AssemblyReference.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.AssemblyInfoInputs.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.AssemblyInfo.cs
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.csproj.CoreCompileInputs.cache
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\refint\JobBoard.Core.dll
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\JobBoard.Core.pdb
+C:\Users\meher\OneDrive\Desktop\Final_Project\JobBoard\JobBoard.Core\obj\Debug\net8.0\ref\JobBoard.Core.dll

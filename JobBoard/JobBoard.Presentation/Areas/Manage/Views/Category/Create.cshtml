@@ -1,0 +1,26 @@
+﻿@model CreateCategoryDto
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+	<h1 class="h3 mb-0 text-gray-800">
+		Create New Category
+	</h1>
+	@if (!ViewData.ModelState.IsValid)
+	{
+		<div class="alert alert-danger">
+			@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+			{
+				<p>@error.ErrorMessage</p>
+			}
+		</div>
+	}
+	<form class="row col-8" method="post" asp-action="Create">
+		<div style="padding: 0" class="form-group flex-column gap-2 d-flex col-12">
+			<label asp-for="Name">Name of a Category</label>
+			<input asp-for="Name" placeholder="Enter name of a Category">
+		
+		</div>
+		<button type="submit" class="btn btn-primary">
+			Submit
+		</button>
+	</form>
+</div>

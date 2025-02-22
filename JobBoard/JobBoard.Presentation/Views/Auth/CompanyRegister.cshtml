@@ -1,0 +1,95 @@
+﻿@using JobBoard.DAL
+@using Microsoft.Extensions.Options
+@model CompanyRegisterDto
+@inject IOptions<StripeSettings> Stripe
+
+
+        <!-- HOME -->
+        <section class="section-hero overlay inner-page bg-image" style="background-image: url('@Url.Content("~/images/hero_1.jpg")');" id="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1 class="text-white font-weight-bold">Sign Up/Login</h1>
+                        <div class="custom-breadcrumbs">
+                            <a href="#">Home</a> <span class="mx-2 slash">/</span>
+                            <span class="text-white"><strong>Log In</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="site-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <h2 class="mb-4">Sign Up To JobBoard</h2>
+                        <form method="post" class="p-4 border rounded" enctype="multipart/form-data" onchange="this.form.submit()">
+ 
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="FullName">FullName</label>
+                                    <input asp-for="FullName" id="fname" class="form-control" placeholder="FullName">
+                                    <span asp-validation-for="FullName" style="color:red"></span>
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="Email">Email</label>
+                                    <input asp-for="Email" id="fname" class="form-control" placeholder="Email address">
+                                    <span asp-validation-for="Email" style="color:red"></span>
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="Password">Password</label>
+                                    <input asp-for="Password" id="fname" class="form-control" placeholder="Password">
+                                    <span asp-validation-for="Password" style="color:red"></span>
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="Address">Address</label>
+                                    <input asp-for="Address" id="fname" class="form-control" placeholder="Address">
+                                    <span asp-validation-for="Address" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="Description">Description</label>
+                                    <input asp-for="Description" id="fname" class="form-control" placeholder="Description">
+                                    <span asp-validation-for="Description" style="color:red"></span>
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-12 mb-3 mb-md-0">
+                                    <label class="text-black" asp-for="Logo">Logo</label>
+                                    <input asp-for="Logo" id="fname" class="form-control" placeholder="Logo">
+                                    <span asp-validation-for="Logo" style="color:red"></span>
+
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <script src="//checkout.stripe.com/v2/checkout.js"
+                                        class="stripe-button"
+                                        data-key="@Stripe.Value.Publishablekey"
+                                        data-amount="1500"
+                                        data-name="[Deveducate]"
+                                        data-locale="en"
+                                        data-discription="Sample charge"
+                                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                        data-zip-code="true">
+                                </script>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+

@@ -1,0 +1,49 @@
+﻿@model List<GetGenderDto>
+@{
+    int count = 0;
+}
+<!-- Page Heading -->
+<div style="gap: 1rem" class="d-sm-flex flex-column align-items-start mb-4">
+    <h1 class="h3 mb-0 text-gray-800">
+        Genders
+    </h1>
+
+    <a asp-action="Create"
+       class="btn btn-primary">
+        Create new Gender Type
+
+    </a>
+
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+            {
+                count++;
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@i.Name</td>
+                    <td style="gap: 8px" class="d-flex">
+                        <a asp-action="Update"
+                           asp-route-id="@i.Id"
+                           class="btn btn-secondary">
+                            Update
+                        </a>
+                        <a asp-action="Delete"
+                           asp-route-id="@i.Id"
+                           class="btn btn-danger">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

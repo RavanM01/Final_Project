@@ -1,0 +1,456 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\auth\\companyregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\auth\\companyregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\views\\panel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\views\\panel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\controllers\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\controllers\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\exceptions\\userexceptions\\invalidregisterexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\exceptions\\userexceptions\\invalidregisterexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\exceptions\\userexceptions\\invalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\exceptions\\userexceptions\\invalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\dtos\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\dtos\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\dtos\\indexdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\dtos\\indexdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\dtos\\paneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\dtos\\paneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\areas\\manage\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\areas\\manage\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\exceptions\\commonexceptions\\nullnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\exceptions\\commonexceptions\\nullnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.business\\exceptions\\favoritenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD64F8B3-4EEC-4EC0-BA8B-2486E0B8ADEA}|JobBoard.Business\\JobBoard.Business.csproj|solutionrelative:jobboard.business\\exceptions\\favoritenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|c:\\users\\meher\\onedrive\\desktop\\final_project\\jobboard\\jobboard.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C819DF4A-DC19-43A6-8117-22722EEB95E4}|JobBoard.Presentation\\JobBoard.Presentation.csproj|solutionrelative:jobboard.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Auth\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\ResetPassword.cshtml*",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Auth\\ResetPassword.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:22:56.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Auth\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\ForgotPassword.cshtml*",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Auth\\ForgotPassword.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T12:09:17.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:35:09.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PanelController.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Controllers\\PanelController.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Controllers\\PanelController.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Controllers\\PanelController.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Controllers\\PanelController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAkwKEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:59:54.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Panel\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Views\\Panel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Panel\\Index.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Views\\Panel\\Index.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:15:53.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:19:48.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\CompanyRegister.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Auth\\CompanyRegister.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\CompanyRegister.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Auth\\CompanyRegister.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:24:08.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvalidLoginException.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\UserExceptions\\InvalidLoginException.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Exceptions\\UserExceptions\\InvalidLoginException.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\UserExceptions\\InvalidLoginException.cs",
+              "RelativeToolTip": "JobBoard.Business\\Exceptions\\UserExceptions\\InvalidLoginException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:03:25.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "JobBoard.Business\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwC0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:02:18.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwF8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:04:23.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T08:01:54.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T20:13:03.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvalidRegisterException.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\UserExceptions\\InvalidRegisterException.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Exceptions\\UserExceptions\\InvalidRegisterException.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\UserExceptions\\InvalidRegisterException.cs",
+              "RelativeToolTip": "JobBoard.Business\\Exceptions\\UserExceptions\\InvalidRegisterException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T12:12:22.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\appsettings.json",
+              "RelativeToolTip": "JobBoard.Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T12:01:58.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "JobBoard.Business\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:41:38.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:46:40.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwEsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:16:51.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\Stats.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\Stats.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\Stats.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\Stats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:24:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PanelDto.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\PanelDto.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\PanelDto.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\PanelDto.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\PanelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:26:20.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IndexDto.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\IndexDto.cs",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\IndexDto.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\DTOs\\IndexDto.cs",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\DTOs\\IndexDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T07:27:18.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NullNameException.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\CommonExceptions\\NullNameException.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Exceptions\\CommonExceptions\\NullNameException.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\CommonExceptions\\NullNameException.cs",
+              "RelativeToolTip": "JobBoard.Business\\Exceptions\\CommonExceptions\\NullNameException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:39:59.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T20:55:05.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Areas\\Manage\\Views\\Category\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:46:46.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "JobBoard.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "JobBoard.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T21:25:22.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\DTOs\\Category\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\DTOs\\Category\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\DTOs\\Category\\CreateCategoryDto.cs",
+              "RelativeToolTip": "JobBoard.Business\\DTOs\\Category\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:57:23.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FavoriteNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\FavoriteNotFoundException.cs",
+              "RelativeDocumentMoniker": "JobBoard.Business\\Exceptions\\FavoriteNotFoundException.cs",
+              "ToolTip": "C:\\Users\\meher\\OneDrive\\Desktop\\Final_Project\\JobBoard\\JobBoard.Business\\Exceptions\\FavoriteNotFoundException.cs",
+              "RelativeToolTip": "JobBoard.Business\\Exceptions\\FavoriteNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:11:47.319Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
